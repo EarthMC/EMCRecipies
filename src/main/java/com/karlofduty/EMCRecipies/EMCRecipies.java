@@ -4,14 +4,9 @@ import org.bukkit.inventory.FurnaceRecipe;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.ShapelessRecipe;
-import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.plugin.java.*;
 import org.bukkit.plugin.*;
 import org.bukkit.*;
-import org.bukkit.potion.PotionData;
-import org.bukkit.potion.PotionType;
-
-import java.util.*;
 
 public class EMCRecipies extends JavaPlugin
 {
@@ -40,5 +35,4 @@ public class EMCRecipies extends JavaPlugin
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_SANDSTONE, 1), Material.SANDSTONE));
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE, 1), Material.RED_SANDSTONE));
     }
-
 }
