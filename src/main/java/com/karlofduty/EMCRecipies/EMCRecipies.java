@@ -78,6 +78,12 @@ public class EMCRecipies extends JavaPlugin
         bubblecoral.setIngredient('C', Material.BUBBLE_CORAL);
         Bukkit.addRecipe(bubblecoral);
 
+        final ShapedRecipe endstone = new ShapedRecipe(new NamespacedKey(this, "emc_endstone"), new ItemStack(Material.END_STONE, 1));
+        endstone.shape("SSS", "SCS", "SSS");
+        endstone.setIngredient('C', Material.COBBLESTONE);
+        endstone.setIngredient('S', Material.SAND);
+        Bukkit.addRecipe(endstone);
+
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_SANDSTONE, 1), Material.SANDSTONE));
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE, 1), Material.RED_SANDSTONE));
     }
