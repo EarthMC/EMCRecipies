@@ -86,5 +86,6 @@ public class EMCRecipies extends JavaPlugin
 
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_SANDSTONE, 1), Material.SANDSTONE));
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE, 1), Material.RED_SANDSTONE));
+        this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_STONE, 1), Material.STONE));
     }
 }
