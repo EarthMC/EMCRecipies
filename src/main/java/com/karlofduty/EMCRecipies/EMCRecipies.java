@@ -12,6 +12,10 @@ public class EMCRecipies extends JavaPlugin
 {
     public void onEnable()
     {
+        /*
+            POWERED RAIL
+         */
+
         final ShapedRecipe rail = new ShapedRecipe(new NamespacedKey(this, "emc_powered_rail"), new ItemStack(Material.POWERED_RAIL, 16));
         rail.shape("I I", "ISI", "IRI");
         rail.setIngredient('I', Material.IRON_INGOT);
@@ -19,10 +23,18 @@ public class EMCRecipies extends JavaPlugin
         rail.setIngredient('R', Material.REDSTONE);
         Bukkit.addRecipe(rail);
 
+        /*
+            WEB
+         */
+
         final ShapedRecipe web = new ShapedRecipe(new NamespacedKey(this, "emc_powered_web"), new ItemStack(Material.COBWEB, 1));
         web.shape("WWW", "WWW", "WWW");
         web.setIngredient('W', Material.STRING);
         Bukkit.addRecipe(web);
+
+        /*
+            INK SAC
+         */
 
         final ShapelessRecipe inkSac = new ShapelessRecipe(new NamespacedKey(this, "emc_ink_sac"), new ItemStack(Material.INK_SAC, 1));
         inkSac.addIngredient(Material.COAL);
@@ -31,6 +43,10 @@ public class EMCRecipies extends JavaPlugin
         final ShapelessRecipe inkSac2 = new ShapelessRecipe(new NamespacedKey(this, "emc_ink_sac2"), new ItemStack(Material.INK_SAC, 2));
         inkSac2.addIngredient(Material.CHARCOAL);
         Bukkit.addRecipe(inkSac2);
+
+        /*
+            PRISMARINE
+         */
 
         final ShapelessRecipe prismarineshard = new ShapelessRecipe(new NamespacedKey(this, "emc_prismarine_shard"), new ItemStack(Material.PRISMARINE_SHARD, 1));
         prismarineshard.addIngredient(Material.SAND);
@@ -43,6 +59,10 @@ public class EMCRecipies extends JavaPlugin
         prismarineCrystals.addIngredient(Material.GLOWSTONE_DUST);
         Bukkit.addRecipe(prismarineCrystals);
 
+        /*
+            PACKED ICE
+         */
+
         final ShapedRecipe packedice = new ShapedRecipe(new NamespacedKey(this, "emc_packedice"), new ItemStack(Material.PACKED_ICE, 3));
         packedice.shape("III", "III", "III");
         packedice.setIngredient('I', Material.ICE);
@@ -52,6 +72,10 @@ public class EMCRecipies extends JavaPlugin
         blueice.shape("III", "III", "III");
         blueice.setIngredient('I', Material.PACKED_ICE);
         Bukkit.addRecipe(blueice);
+
+        /*
+            CORAL
+         */
 
         final ShapedRecipe firecoral = new ShapedRecipe(new NamespacedKey(this, "emc_firecoral"), new ItemStack(Material.FIRE_CORAL_BLOCK, 1));
         firecoral.shape("CC", "CC");
@@ -77,6 +101,10 @@ public class EMCRecipies extends JavaPlugin
         bubblecoral.shape("CC", "CC");
         bubblecoral.setIngredient('C', Material.BUBBLE_CORAL);
         Bukkit.addRecipe(bubblecoral);
+
+        /*
+            END STONE
+         */
 
         final ShapedRecipe endstone = new ShapedRecipe(new NamespacedKey(this, "emc_endstone"), new ItemStack(Material.END_STONE, 1));
         endstone.shape("SSS", "SCS", "SSS");
@@ -153,6 +181,19 @@ public class EMCRecipies extends JavaPlugin
         vines6.setIngredient('L', Material.SPRUCE_LEAVES);
         Bukkit.addRecipe(vines6);
 
+        /*
+            END ROD
+         */
+
+        final ShapedRecipe endRod = new ShapedRecipe(new NamespacedKey(this, "emc_vines6"), new ItemStack(Material.END_ROD, 1));
+        endRod.shape("GWG", "GWG", "GWG");
+        endRod.setIngredient('G', Material.GLOWSTONE_DUST);
+        endRod.setIngredient('W', Material.WHITE_STAINED_GLASS);
+        Bukkit.addRecipe(endRod);
+
+        /*
+            SAND STONE
+         */
 
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_SANDSTONE, 1), Material.SANDSTONE));
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE, 1), Material.RED_SANDSTONE));
