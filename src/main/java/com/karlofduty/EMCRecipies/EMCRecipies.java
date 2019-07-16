@@ -84,6 +84,76 @@ public class EMCRecipies extends JavaPlugin
         endstone.setIngredient('S', Material.SAND);
         Bukkit.addRecipe(endstone);
 
+        /*
+            LILYPADS
+         */
+
+        final ShapedRecipe lilypad = new ShapedRecipe(new NamespacedKey(this, "emc_lilypad1"), new ItemStack(Material.LILY_PAD, 3));
+        lilypad.shape("L L", "LLL", "LLL");
+        lilypad.setIngredient('L', Material.ACACIA_LEAVES);
+        Bukkit.addRecipe(lilypad);
+
+        final ShapedRecipe lilypad2 = new ShapedRecipe(new NamespacedKey(this, "emc_lilypad2"), new ItemStack(Material.LILY_PAD, 3));
+        lilypad2.shape("L L", "LLL", "LLL");
+        lilypad2.setIngredient('L', Material.BIRCH_LEAVES);
+        Bukkit.addRecipe(lilypad2);
+
+        final ShapedRecipe lilypad3 = new ShapedRecipe(new NamespacedKey(this, "emc_lilypad3"), new ItemStack(Material.LILY_PAD, 3));
+        lilypad3.shape("L L", "LLL", "LLL");
+        lilypad3.setIngredient('L', Material.DARK_OAK_LEAVES);
+        Bukkit.addRecipe(lilypad3);
+
+        final ShapedRecipe lilypad4 = new ShapedRecipe(new NamespacedKey(this, "emc_lilypad4"), new ItemStack(Material.LILY_PAD, 3));
+        lilypad4.shape("L L", "LLL", "LLL");
+        lilypad4.setIngredient('L', Material.JUNGLE_LEAVES);
+        Bukkit.addRecipe(lilypad4);
+
+        final ShapedRecipe lilypad5 = new ShapedRecipe(new NamespacedKey(this, "emc_lilypad5"), new ItemStack(Material.LILY_PAD, 3));
+        lilypad5.shape("L L", "LLL", "LLL");
+        lilypad5.setIngredient('L', Material.OAK_LEAVES);
+        Bukkit.addRecipe(lilypad5);
+
+        final ShapedRecipe lilypad6 = new ShapedRecipe(new NamespacedKey(this, "emc_lilypad6"), new ItemStack(Material.LILY_PAD, 3));
+        lilypad6.shape("L L", "LLL", "LLL");
+        lilypad6.setIngredient('L', Material.SPRUCE_LEAVES);
+        Bukkit.addRecipe(lilypad6);
+
+
+        /*
+            VINES
+         */
+
+        final ShapedRecipe vines = new ShapedRecipe(new NamespacedKey(this, "emc_vines1"), new ItemStack(Material.VINE, 3));
+        vines.shape("L L", "LLL", "L L");
+        vines.setIngredient('L', Material.ACACIA_LEAVES);
+        Bukkit.addRecipe(vines);
+
+        final ShapedRecipe vines2 = new ShapedRecipe(new NamespacedKey(this, "emc_vines2"), new ItemStack(Material.VINE, 3));
+        vines.shape("L L", "LLL", "L L");
+        vines2.setIngredient('L', Material.BIRCH_LEAVES);
+        Bukkit.addRecipe(vines2);
+
+        final ShapedRecipe vines3 = new ShapedRecipe(new NamespacedKey(this, "emc_vines3"), new ItemStack(Material.VINE, 3));
+        vines.shape("L L", "LLL", "L L");
+        vines3.setIngredient('L', Material.DARK_OAK_LEAVES);
+        Bukkit.addRecipe(vines3);
+
+        final ShapedRecipe vines4 = new ShapedRecipe(new NamespacedKey(this, "emc_vines4"), new ItemStack(Material.VINE, 3));
+        vines.shape("L L", "LLL", "L L");
+        vines4.setIngredient('L', Material.JUNGLE_LEAVES);
+        Bukkit.addRecipe(vines4);
+
+        final ShapedRecipe vines5 = new ShapedRecipe(new NamespacedKey(this, "emc_vines5"), new ItemStack(Material.VINE, 3));
+        vines.shape("L L", "LLL", "L L");
+        vines5.setIngredient('L', Material.OAK_LEAVES);
+        Bukkit.addRecipe(vines5);
+
+        final ShapedRecipe vines6 = new ShapedRecipe(new NamespacedKey(this, "emc_vines6"), new ItemStack(Material.VINE, 3));
+        vines.shape("L L", "LLL", "L L");
+        vines6.setIngredient('L', Material.SPRUCE_LEAVES);
+        Bukkit.addRecipe(vines6);
+
+
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_SANDSTONE, 1), Material.SANDSTONE));
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE, 1), Material.RED_SANDSTONE));
     }
