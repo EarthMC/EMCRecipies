@@ -12,6 +12,17 @@ public class EMCRecipies extends JavaPlugin
 {
     public void onEnable()
     {
+    
+        /*
+            SHULKER BOX
+         */
+
+        final ShapedRecipe shulkerBox = new ShapedRecipe(new NamespacedKey(this, "emc_shulker_box"), new ItemStack(Material.GRAY_SHULKER_BOX, 1));
+        shulkerBox.shape("CCC", "CEC", "CCC");
+        shulkerBox.setIngredient('C', Material.CHEST);
+        shulkerBox.setIngredient('E', Material.ENDER_CHEST);
+        Bukkit.addRecipe(shulkerBox);
+        
         /*
             POWERED RAIL
          */
