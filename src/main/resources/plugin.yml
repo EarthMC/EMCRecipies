@@ -1,7 +1,7 @@
 name: EMCRecipies
 version: ${project.version}
 description: ${project.description}
-author: Karl Essinger (KarlofDuty)
-website: http://karlofduty.com
+author: creatorfromhell, KarlofDuty
+website: https://earthmc.net
 main: com.karlofduty.EMCRecipies.EMCRecipies
 api-version: 1.13
