@@ -157,27 +157,27 @@ public class EMCRecipies extends JavaPlugin
         Bukkit.addRecipe(vines);
 
         final ShapedRecipe vines2 = new ShapedRecipe(new NamespacedKey(this, "emc_vines2"), new ItemStack(Material.VINE, 3));
-        vines.shape("L L", "LLL", "L L");
+        vines2.shape("L L", "LLL", "L L");
         vines2.setIngredient('L', Material.BIRCH_LEAVES);
         Bukkit.addRecipe(vines2);
 
         final ShapedRecipe vines3 = new ShapedRecipe(new NamespacedKey(this, "emc_vines3"), new ItemStack(Material.VINE, 3));
-        vines.shape("L L", "LLL", "L L");
+        vines3.shape("L L", "LLL", "L L");
         vines3.setIngredient('L', Material.DARK_OAK_LEAVES);
         Bukkit.addRecipe(vines3);
 
         final ShapedRecipe vines4 = new ShapedRecipe(new NamespacedKey(this, "emc_vines4"), new ItemStack(Material.VINE, 3));
-        vines.shape("L L", "LLL", "L L");
+        vines4.shape("L L", "LLL", "L L");
         vines4.setIngredient('L', Material.JUNGLE_LEAVES);
         Bukkit.addRecipe(vines4);
 
         final ShapedRecipe vines5 = new ShapedRecipe(new NamespacedKey(this, "emc_vines5"), new ItemStack(Material.VINE, 3));
-        vines.shape("L L", "LLL", "L L");
+        vines5.shape("L L", "LLL", "L L");
         vines5.setIngredient('L', Material.OAK_LEAVES);
         Bukkit.addRecipe(vines5);
 
         final ShapedRecipe vines6 = new ShapedRecipe(new NamespacedKey(this, "emc_vines6"), new ItemStack(Material.VINE, 3));
-        vines.shape("L L", "LLL", "L L");
+        vines6.shape("L L", "LLL", "L L");
         vines6.setIngredient('L', Material.SPRUCE_LEAVES);
         Bukkit.addRecipe(vines6);
 
@@ -185,7 +185,7 @@ public class EMCRecipies extends JavaPlugin
             END ROD
          */
 
-        final ShapedRecipe endRod = new ShapedRecipe(new NamespacedKey(this, "emc_vines6"), new ItemStack(Material.END_ROD, 1));
+        final ShapedRecipe endRod = new ShapedRecipe(new NamespacedKey(this, "emc_endrod"), new ItemStack(Material.END_ROD, 1));
         endRod.shape("GWG", "GWG", "GWG");
         endRod.setIngredient('G', Material.GLOWSTONE_DUST);
         endRod.setIngredient('W', Material.WHITE_STAINED_GLASS);

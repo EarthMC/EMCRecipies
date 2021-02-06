@@ -4,4 +4,4 @@ description: ${project.description}
 author: creatorfromhell, KarlofDuty
 website: https://earthmc.net
 main: com.karlofduty.EMCRecipies.EMCRecipies
-api-version: 1.13
+api-version: '1.15'
