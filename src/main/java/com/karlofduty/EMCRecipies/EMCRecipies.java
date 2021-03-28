@@ -202,7 +202,7 @@ public class EMCRecipies extends JavaPlugin
             POPPED CHORUS FRUIT
          */
 
-        final ShapedRecipe poppedchorusfruit = new ShapedRecipe(new NamespacedKey(this, "emc_poppedchorusfruit"), new ItemStack(Material.POPPED_CHORUS_FRUIT, 4));
+        final ShapelessRecipe poppedchorusfruit = new ShapelessRecipe(new NamespacedKey(this, "emc_poppedchorusfruit"), new ItemStack(Material.POPPED_CHORUS_FRUIT, 4));
         poppedChorusFruit.shape("E ", "M ");
         poppedChorusFruit.setIngredient('E', Material.EYE_OF_ENDER);
         poppedChorusFruit.setIngredient('M', Material.PHANTOM_MEMBRANE);
