@@ -1,17 +1,33 @@
 package com.karlofduty.EMCRecipies;
 
+import io.papermc.paper.event.server.ServerResourcesReloadedEvent;
+import org.bukkit.Bukkit;
+import org.bukkit.Material;
+import org.bukkit.NamespacedKey;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.inventory.FurnaceRecipe;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.ShapedRecipe;
 import org.bukkit.inventory.ShapelessRecipe;
-import org.bukkit.plugin.java.*;
-import org.bukkit.plugin.*;
-import org.bukkit.*;
+import org.bukkit.plugin.java.JavaPlugin;
 
-public class EMCRecipies extends JavaPlugin
+public class EMCRecipies extends JavaPlugin implements Listener
 {
     public void onEnable()
     {
+        Bukkit.getPluginManager().registerEvents(this, this);
+        registerRecipes();
+    }
+
+    // Called when datapacks/recipes are reloaded, recipes will have to be registered again.
+    @EventHandler
+    public void onResourcesReload(ServerResourcesReloadedEvent event)
+    {
+        registerRecipes();
+    }
+
+    public void registerRecipes() {
         // POWERED RAIL
         final ShapedRecipe rail = new ShapedRecipe(new NamespacedKey(this, "emc_powered_rail"), new ItemStack(Material.POWERED_RAIL, 16));
         rail.shape("I I", "ISI", "IRI");
