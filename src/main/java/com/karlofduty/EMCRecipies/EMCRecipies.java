@@ -101,7 +101,7 @@ public class EMCRecipies extends JavaPlugin implements Listener
         Bukkit.addRecipe(bubblecoral);
 
         // END STONE
-        final ShapedRecipe endstone = new ShapedRecipe(new NamespacedKey(this, "emc_endstone"), new ItemStack(Material.END_STONE, 1));
+        final ShapedRecipe endstone = new ShapedRecipe(new NamespacedKey(this, "emc_endstone"), new ItemStack(Material.END_STONE, 8));
         endstone.shape("SSS", "SCS", "SSS");
         endstone.setIngredient('C', Material.COBBLESTONE);
         endstone.setIngredient('S', Material.SAND);
