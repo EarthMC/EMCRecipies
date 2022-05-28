@@ -177,6 +177,134 @@ public class EMCRecipies extends JavaPlugin implements Listener
         endRod.setIngredient('W', Material.WHITE_STAINED_GLASS);
         Bukkit.addRecipe(endRod);
 
+        //WHITE CONCRETE POWDER (RED SAND)
+        final ShapedRecipe whiteconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_whiteconcretepowder"), new ItemStack(Material.WHITE_CONCRETE_POWDER, 8));
+        whiteconcretepowder.shape("DSS", "SSG", "GGG");
+        whiteconcretepowder.setIngredient('D', Material.WHITE_DYE);
+        whiteconcretepowder.setIngredient('S', Material.RED_SAND);
+        whiteconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(whiteconcretepowder);
+
+        //ORANGE CONCRETE POWDER (RED SAND)
+        final ShapedRecipe orangeconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_orangeconcretepowder"), new ItemStack(Material.ORANGE_CONCRETE_POWDER, 8));
+        orangeconcretepowder.shape("DSS", "SSG", "GGG");
+        orangeconcretepowder.setIngredient('D', Material.ORANGE_DYE);
+        orangeconcretepowder.setIngredient('S', Material.RED_SAND);
+        orangeconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(orangeconcretepowder);
+
+        //MAGENTA CONCRETE POWDER (RED SAND)
+        final ShapedRecipe magentaconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_magentaconcretepowder"), new ItemStack(Material.MAGENTA_CONCRETE_POWDER, 8));
+        magentaconcretepowder.shape("DSS", "SSG", "GGG");
+        magentaconcretepowder.setIngredient('D', Material.MAGENTA_DYE);
+        magentaconcretepowder.setIngredient('S', Material.RED_SAND);
+        magentaconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(magentaconcretepowder);
+
+        //LIGHT BLUE CONCRETE POWDER (RED SAND)
+        final ShapedRecipe lightblueconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_lightblueconcretepowder"), new ItemStack(Material.LIGHT_BLUE_CONCRETE_POWDER, 8));
+        lightblueconcretepowder.shape("DSS", "SSG", "GGG");
+        lightblueconcretepowder.setIngredient('D', Material.LIGHT_BLUE_DYE);
+        lightblueconcretepowder.setIngredient('S', Material.RED_SAND);
+        lightblueconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(lightblueconcretepowder);
+
+        //YELLOW CONCRETE POWDER (RED SAND)
+        final ShapedRecipe yellowconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_yellowconcretepowder"), new ItemStack(Material.YELLOW_CONCRETE_POWDER, 8));
+        yellowconcretepowder.shape("DSS", "SSG", "GGG");
+        yellowconcretepowder.setIngredient('D', Material.YELLOW_DYE);
+        yellowconcretepowder.setIngredient('S', Material.RED_SAND);
+        yellowconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(yellowconcretepowder);
+
+        //LIME CONCRETE POWDER (RED SAND)
+        final ShapedRecipe limeconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_limeconcretepowder"), new ItemStack(Material.LIME_CONCRETE_POWDER, 8));
+        limeconcretepowder.shape("DSS", "SSG", "GGG");
+        limeconcretepowder.setIngredient('D', Material.LIME_DYE);
+        limeconcretepowder.setIngredient('S', Material.RED_SAND);
+        limeconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(limeconcretepowder);
+
+        //PINK CONCRETE POWDER (RED SAND)
+        final ShapedRecipe pinkconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_pinkconcretepowder"), new ItemStack(Material.PINK_CONCRETE_POWDER, 8));
+        pinkconcretepowder.shape("DSS", "SSG", "GGG");
+        pinkconcretepowder.setIngredient('D', Material.PINK_DYE);
+        pinkconcretepowder.setIngredient('S', Material.RED_SAND);
+        pinkconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(pinkconcretepowder);
+
+        //GRAY CONCRETE POWDER (RED SAND)
+        final ShapedRecipe grayconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_grayconcretepowder"), new ItemStack(Material.GRAY_CONCRETE_POWDER, 8));
+        grayconcretepowder.shape("DSS", "SSG", "GGG");
+        grayconcretepowder.setIngredient('D', Material.GRAY_DYE);
+        grayconcretepowder.setIngredient('S', Material.RED_SAND);
+        grayconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(grayconcretepowder);
+
+        //LIGHT GRAY CONCRETE POWDER (RED SAND)
+        final ShapedRecipe lightgrayconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_lightgrayconcretepowder"), new ItemStack(Material.LIGHT_GRAY_CONCRETE_POWDER, 8));
+        lightgrayconcretepowder.shape("DSS", "SSG", "GGG");
+        lightgrayconcretepowder.setIngredient('D', Material.LIGHT_GRAY_DYE);
+        lightgrayconcretepowder.setIngredient('S', Material.RED_SAND);
+        lightgrayconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(lightgrayconcretepowder);
+
+        //CYAN CONCRETE POWDER (RED SAND)
+        final ShapedRecipe cyanconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_cyanconcretepowder"), new ItemStack(Material.CYAN_CONCRETE_POWDER, 8));
+        cyanconcretepowder.shape("DSS", "SSG", "GGG");
+        cyanconcretepowder.setIngredient('D', Material.CYAN_DYE);
+        cyanconcretepowder.setIngredient('S', Material.RED_SAND);
+        cyanconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(cyanconcretepowder);
+
+        //PURPLE CONCRETE POWDER (RED SAND)
+        final ShapedRecipe purpleconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_purpleconcretepowder"), new ItemStack(Material.PURPLE_CONCRETE_POWDER, 8));
+        purpleconcretepowder.shape("DSS", "SSG", "GGG");
+        purpleconcretepowder.setIngredient('D', Material.PURPLE_DYE);
+        purpleconcretepowder.setIngredient('S', Material.RED_SAND);
+        purpleconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(purpleconcretepowder);
+
+        //BLUE CONCRETE POWDER (RED SAND)
+        final ShapedRecipe blueconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_blueconcretepowder"), new ItemStack(Material.BLUE_CONCRETE_POWDER, 8));
+        blueconcretepowder.shape("DSS", "SSG", "GGG");
+        blueconcretepowder.setIngredient('D', Material.BLUE_DYE);
+        blueconcretepowder.setIngredient('S', Material.RED_SAND);
+        blueconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(blueconcretepowder);
+
+        //BROWN CONCRETE POWDER (RED SAND)
+        final ShapedRecipe brownconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_brownconcretepowder"), new ItemStack(Material.BROWN_CONCRETE_POWDER, 8));
+        brownconcretepowder.shape("DSS", "SSG", "GGG");
+        brownconcretepowder.setIngredient('D', Material.BROWN_DYE);
+        brownconcretepowder.setIngredient('S', Material.RED_SAND);
+        brownconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(brownconcretepowder);
+
+        //GREEN CONCRETE POWDER (RED SAND)
+        final ShapedRecipe greenconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_greenconcretepowder"), new ItemStack(Material.GREEN_CONCRETE_POWDER, 8));
+        greenconcretepowder.shape("DSS", "SSG", "GGG");
+        greenconcretepowder.setIngredient('D', Material.GREEN_DYE);
+        greenconcretepowder.setIngredient('S', Material.RED_SAND);
+        greenconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(greenconcretepowder);
+
+        //RED CONCRETE POWDER (RED SAND)
+        final ShapedRecipe redconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_redconcretepowder"), new ItemStack(Material.RED_CONCRETE_POWDER, 8));
+        redconcretepowder.shape("DSS", "SSG", "GGG");
+        redconcretepowder.setIngredient('D', Material.RED_DYE);
+        redconcretepowder.setIngredient('S', Material.RED_SAND);
+        redconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(redconcretepowder);
+
+        //BLACK CONCRETE POWDER (RED SAND)
+        final ShapedRecipe blackconcretepowder = new ShapedRecipe(new NamespacedKey(this, "emc_blackconcretepowder"), new ItemStack(Material.BLACK_CONCRETE_POWDER, 8));
+        blackconcretepowder.shape("DSS", "SSG", "GGG");
+        blackconcretepowder.setIngredient('D', Material.BLACK_DYE);
+        blackconcretepowder.setIngredient('S', Material.RED_SAND);
+        blackconcretepowder.setIngredient('G', Material.GRAVEL);
+        Bukkit.addRecipe(blackconcretepowder);
+
         // SAND STONE
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_SANDSTONE, 1), Material.SANDSTONE));
         this.getServer().addRecipe(new FurnaceRecipe(new ItemStack(Material.SMOOTH_RED_SANDSTONE, 1), Material.RED_SANDSTONE));
